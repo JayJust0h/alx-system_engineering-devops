@@ -1,0 +1,2 @@
+#!/bin/bash
+for var in $(env | cut -f1 -d=); do echo "$var=${!var}"; done
